@@ -1,5 +1,5 @@
-listA = [1, 2, 3];
-listB = ["a", "b", "c"];
+let listA = [1, 2, 3];
+let listB = ["a", "b", "c"];
 
 function zipList (listA, listB) {
   let returnArr = [];
@@ -8,7 +8,7 @@ function zipList (listA, listB) {
 
   for (let i = 0; i < (listA.length + listB.length); i++) {
 
-    if (i % 2 == 0) {
+    if (i % 2 === 0) {
 
       returnArr[i] = listA[countA];
       countA++;
